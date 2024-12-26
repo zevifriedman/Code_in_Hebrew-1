@@ -1,0 +1,35 @@
+@import 'colors.css';
+
+body {
+    margin: 0; /* ביטול שוליים */
+    padding: 15px; /* ריפוד של 15 פיקסלים */
+    background-color: var(--bg-header); /* צבע רקע מהגדרות הצבעים */
+    color: var(--text-header); /* צבע טקסט מהגדרות הצבעים */
+    font-family: 'Segoe UI', Arial, sans-serif; /* משפחת גופנים */
+    text-align: center; /* יישור טקסט למרכז */
+}
+
+.header {
+    font-size: 24px; /* גודל גופן 24 פיקסלים */
+    font-weight: bold; /* גופן מודגש */
+    margin-bottom: 50px; /* שוליים תחתונים של 50 פיקסלים */
+}
+
+.menu {
+    display: flex; /* תצוגה גמישה */
+    justify-content: center; /* יישור פריטים למרכז */
+    gap: 20px; /* רווח של 20 פיקסלים בין פריטים */
+    margin-top: 10px; /* שוליים עליונים של 10 פיקסלים */
+}
+
+.menu-item {
+    color: var(--text-header); /* צבע טקסט מהגדרות הצבעים */
+    text-decoration: none; /* ביטול קו תחתון */
+    padding: 8px 15px; /* ריפוד פנימי של 8 פיקסלים למעלה ולמטה, 15 פיקסלים מימין ומשמאל */
+    border-radius: 5px; /* פינות מעוגלות של 5 פיקסלים */
+    transition: background-color 0.3s; /* מעבר צבע רקע חלק במשך 0.3 שניות */
+}
+
+.menu-item:hover {
+    background-color: var(--menu-hover); /* צבע רקע בריחוף מהגדרות הצבעים */
+}

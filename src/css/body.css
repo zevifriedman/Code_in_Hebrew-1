@@ -1,0 +1,25 @@
+@import 'colors.css';
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: var(--bg-body);
+    color: var(--text-body);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-height: 300px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover);
+}

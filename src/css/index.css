@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+iframe {
+    border: none;
+    width: 100%;
+}
+#header-frame {
+    height: 150px;
+}
+#content-frame {
+    flex-grow: 1;
+}
+#footer-frame {
+    height: 50px;
+}
